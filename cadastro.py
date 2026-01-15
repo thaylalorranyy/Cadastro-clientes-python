@@ -4,19 +4,20 @@ def menu():
   print("1- Cadastrar clientes")
   print("2- Listar clientes")
   print("0- Sair")
-while true: 
+while True: 
   menu()
-  Opção = input("Escolha uma opção: ")
-  if opção == "1"
-  nome = input("Digite o nome do cliente")
-  clientes.append(nome)
-  print ("Cliente cadastrado com sucesso")
-elif opção == "2" 
-print ("Clientes cadastrados:")
-for clientes if clientes: 
-  print (clientes) 
-elif opção == "0"
-print ("Saindo do sistema")
-break 
+  opcao = input("Escolha uma opção: ")
+  if opcao == "1":
+    nome = input(" Digite o nome do cliente: ")
+    clientes.append(nome)
+    print ("Cliente cadastrado com sucesso")
+  elif opcao == "2":
+    print ("Clientes cadastrados:")
+    for cliente in clientes: 
+     print (cliente) 
+  elif Opcao == "0":
+    print ("Saindo do sistema")
+    break 
 else:
-print("Opção invalida")
+    print("Opção invalida")
+
