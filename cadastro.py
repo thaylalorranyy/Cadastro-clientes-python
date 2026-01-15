@@ -15,7 +15,7 @@ while True:
     print ("Clientes cadastrados:")
     for cliente in clientes: 
      print (cliente) 
-  elif Opcao == "0":
+  elif opcao == "0":
     print ("Saindo do sistema")
     break 
 else:
